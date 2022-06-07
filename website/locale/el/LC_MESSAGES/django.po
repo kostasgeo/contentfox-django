@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 12:17+0000\n"
+"POT-Creation-Date: 2022-06-07 12:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,266 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: website/settings.py:120
 msgid "Greek"
 msgstr ""
 
 #: website/settings.py:121
 msgid "English"
+msgstr ""
+
+#: website/templates/sections/banners.html:5
+msgid "What can you build with ContentFox?"
+msgstr ""
+
+#: website/templates/sections/banners.html:13
+msgid "WEB APPS"
+msgstr ""
+
+#: website/templates/sections/banners.html:14
+msgid ""
+"WordPress, Drupal, Joomla websites, blog & landing pages. With 40+ file "
+"formats supported, there's nothing you can't do."
+msgstr ""
+
+#: website/templates/sections/banners.html:22
+msgid "MOBILE APPS"
+msgstr ""
+
+#: website/templates/sections/banners.html:23
+msgid ""
+"Use your preferred file format, or embed the ContentFox iOS and Android SDKs "
+"to speed up content delivery with OTA updates."
+msgstr ""
+
+#: website/templates/sections/banners.html:31
+msgid "INTERACTIVE APPS"
+msgstr ""
+
+#: website/templates/sections/banners.html:32
+msgid ""
+"Do it like Space Ape, Kaizen and Scratch. Games, educational courses or any "
+"other dynamic content, we’ve got you covered."
+msgstr ""
+
+#: website/templates/sections/banners.html:40
+msgid "OPEN SOURCE"
+msgstr ""
+
+#: website/templates/sections/banners.html:41
+msgid ""
+"Born within the open source community, we're offering a forever free plan to "
+"eligible Open Source projects."
+msgstr ""
+
+#: website/templates/sections/banners.html:49
+msgid "HELP CENTER"
+msgstr ""
+
+#: website/templates/sections/banners.html:50
+msgid ""
+"Zendesk, Freshdesk, HelpScout or Desk? No problem. Delight your users with "
+"beautiful content."
+msgstr ""
+
+#: website/templates/sections/banners.html:58
+msgid "IMAGE AND AUDIO"
+msgstr ""
+
+#: website/templates/sections/banners.html:59
+msgid "Delivery image and audio to the app, update them on the fly."
+msgstr ""
+
+#: website/templates/sections/customers.html:6
+msgid "Trusted by the World’s Tech Leaders"
+msgstr ""
+
+#: website/templates/sections/features.html:6
+msgid "Manage your digital content on a continuous basis, hassle-free"
+msgstr ""
+
+#: website/templates/sections/features.html:9
+msgid "Content Automation"
+msgstr ""
+
+#: website/templates/sections/features.html:10
+msgid "Workflow & Progress Management"
+msgstr ""
+
+#: website/templates/sections/features.html:11
+msgid "Content Quality & Speed"
+msgstr ""
+
+#: website/templates/sections/features.html:12
+msgid "Team Management"
+msgstr ""
+
+#: website/templates/sections/features.html:13
+#: website/templates/sections/footer.html:25
+#: website/templates/sections/header.html:17
+msgid "Integrations"
+msgstr ""
+
+#: website/templates/sections/features.html:18
+msgid "Less manual work for everyone"
+msgstr ""
+
+#: website/templates/sections/features.html:19
+msgid ""
+"Save engineering time from mundane tasks and embed content management in "
+"your CI/ CD workflows."
+msgstr ""
+
+#: website/templates/sections/features.html:20
+#: website/templates/sections/features.html:28
+#: website/templates/sections/features.html:36
+#: website/templates/sections/features.html:44
+#: website/templates/sections/features.html:52
+msgid "LEARN MORE"
+msgstr ""
+
+#: website/templates/sections/features.html:26
+msgid "Manage and monitor the management progress"
+msgstr ""
+
+#: website/templates/sections/features.html:27
+msgid ""
+"Set-up the workflow that best fits each project's needs. Access reports and "
+"dashboards to check the translation progress."
+msgstr ""
+
+#: website/templates/sections/features.html:34
+msgid "Get higher-quality content, faster"
+msgstr ""
+
+#: website/templates/sections/features.html:35
+msgid ""
+"Use built-in linguistic tools like spellcheckers, and code checks to improve "
+"content quality and accelerate release time."
+msgstr ""
+
+#: website/templates/sections/features.html:42
+msgid "Improve team productivity and collaboration"
+msgstr ""
+
+#: website/templates/sections/features.html:43
+msgid ""
+"Assign different roles and responsibilities. Leave comments on the strings, "
+"use Slack for real-time collaboration, and much more."
+msgstr ""
+
+#: website/templates/sections/features.html:50
+msgid "Integrate with the tools you use every day"
+msgstr ""
+
+#: website/templates/sections/features.html:51
+msgid ""
+"Do more with ContentFox by easily connecting your tech stack with our app."
+msgstr ""
+
+#: website/templates/sections/footer.html:7
+msgid "Want to experience ContentFox in action?"
+msgstr ""
+
+#: website/templates/sections/footer.html:8
+msgid ""
+"Get started with a Free {{ trial_days }}full-Day Trial. Sign up in minutes. "
+"No credit card required."
+msgstr ""
+
+#: website/templates/sections/footer.html:10
+msgid "TRY IT FREE"
+msgstr ""
+
+#: website/templates/sections/footer.html:11
+msgid "GET A DEMO"
+msgstr ""
+
+#: website/templates/sections/footer.html:19
+#: website/templates/sections/header.html:11
+msgid "ContentFox"
+msgstr ""
+
+#: website/templates/sections/footer.html:22
+msgid "PRODUCT"
+msgstr ""
+
+#: website/templates/sections/footer.html:24
+msgid "Features"
+msgstr ""
+
+#: website/templates/sections/footer.html:26
+#: website/templates/sections/header.html:30
+msgid "Pricing"
+msgstr ""
+
+#: website/templates/sections/footer.html:27
+msgid "API"
+msgstr ""
+
+#: website/templates/sections/footer.html:28
+msgid "Client app"
+msgstr ""
+
+#: website/templates/sections/footer.html:29
+msgid "Status"
+msgstr ""
+
+#: website/templates/sections/footer.html:30
+msgid "Review ContentFox"
+msgstr ""
+
+#: website/templates/sections/g2.html:7
+msgid "HIGHEST RATED CONTENT MANAGEMENT SOLUTION"
+msgstr ""
+
+#: website/templates/sections/g2.html:8
+msgid "Listed in G2 Best Software Awards"
+msgstr ""
+
+#: website/templates/sections/header.html:13
+msgid "Product"
+msgstr ""
+
+#: website/templates/sections/header.html:15
+msgid "How ContentFlox works"
+msgstr ""
+
+#: website/templates/sections/header.html:16
+msgid "For Enterprise"
+msgstr ""
+
+#: website/templates/sections/header.html:18
+msgid "Open Source"
+msgstr ""
+
+#: website/templates/sections/header.html:24
+msgid "Phrase Management"
+msgstr ""
+
+#: website/templates/sections/header.html:25
+msgid "Image Management"
+msgstr ""
+
+#: website/templates/sections/header.html:26
+msgid "Audio Management"
+msgstr ""
+
+#: website/templates/sections/header.html:27
+msgid "Teams & Workflows"
+msgstr ""
+
+#: website/templates/sections/header.html:31
+msgid "Customer Stories"
+msgstr ""
+
+#: website/templates/sections/header.html:32
+msgid "Log In"
+msgstr ""
+
+#: website/templates/sections/header.html:33
+msgid "SIGN UP FREE"
 msgstr ""
 
 #: website/views.py:8
