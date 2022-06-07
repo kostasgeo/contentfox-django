@@ -43,14 +43,14 @@
                 </form>
             </div>
             <div class="bottom-info">
-                <div class="info">{% trans "{{ trial_days }} days free trial" %}</div>
+                <div class="info">{% blocktrans %} {{ trial_days }} days free trial {% endblocktrans %}</div>
                 <div class="info">{% trans "No credit card required" %}</div>
                 <div class="info">{% trans "Full access &support" %}</div>
                 <div class="info">
                 {% if num_integrations > 1 %}
-                {% trans "{{ num_integrations }} available integrations" %}
+                {% blocktrans %} {{ num_integrations }} available integrations {% endblocktrans %}
                 {% else %}
-                {% trans "{{ num_integrations }} available integration" %}
+                {% blocktrans %} {{ num_integrations }} available integration" {% endblocktrans %}
                 {% endif %}
                 </div>
             </div>
