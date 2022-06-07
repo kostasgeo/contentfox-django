@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-07 12:43+0000\n"
+"POT-Creation-Date: 2022-06-07 12:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -227,6 +227,79 @@ msgstr ""
 msgid "Review ContentFox"
 msgstr ""
 
+#: website/templates/sections/footer.html:34
+msgid "COMPANY"
+msgstr ""
+
+#: website/templates/sections/footer.html:36
+msgid "About us"
+msgstr ""
+
+#: website/templates/sections/footer.html:37
+msgid "Case studies"
+msgstr ""
+
+#: website/templates/sections/footer.html:38
+msgid "Careers"
+msgstr ""
+
+#: website/templates/sections/footer.html:44
+msgid "Documentation"
+msgstr ""
+
+#: website/templates/sections/footer.html:45
+msgid "Developer Hub"
+msgstr ""
+
+#: website/templates/sections/footer.html:46
+msgid "Contact us"
+msgstr ""
+
+#: website/templates/sections/footer.html:47
+msgid "Give feedback"
+msgstr ""
+
+#: website/templates/sections/footer.html:48
+msgid "Press"
+msgstr ""
+
+#: website/templates/sections/footer.html:49
+msgid "Guides & Webinars"
+msgstr ""
+
+#: website/templates/sections/footer.html:50
+msgid "See a demo"
+msgstr ""
+
+#: website/templates/sections/footer.html:54
+msgid "STAY CONNECTED"
+msgstr ""
+
+#: website/templates/sections/footer.html:55
+msgid "Get the latest news and tips by signing up for our monthly newsletter."
+msgstr ""
+
+#: website/templates/sections/footer.html:61
+msgid "SUBSCRIBE"
+msgstr ""
+
+#: website/templates/sections/footer.html:67
+msgid "CONTACT US"
+msgstr ""
+
+#: website/templates/sections/footer.html:82
+msgid "Legal"
+msgstr ""
+
+#: website/templates/sections/footer.html:91
+msgid "Subscribe to <br> Becoming Global"
+msgstr ""
+
+#: website/templates/sections/footer.html:92
+msgid ""
+"Get localization news and best practices delivered to your inbox each month."
+msgstr ""
+
 #: website/templates/sections/g2.html:7
 msgid "HIGHEST RATED CONTENT MANAGEMENT SOLUTION"
 msgstr ""
@@ -279,6 +352,82 @@ msgstr ""
 msgid "SIGN UP FREE"
 msgstr ""
 
-#: website/views.py:8
-msgid "trial_days"
+#: website/templates/sections/hello.html:6
+msgid "from ContentFox"
+msgstr ""
+
+#: website/templates/sections/hello.html:15
+msgid "HOW CONTENTFOX WORKS"
+msgstr ""
+
+#: website/templates/sections/hero.html:26
+msgid "Content management for"
+msgstr ""
+
+#: website/templates/sections/hero.html:29
+msgid "Web & Mobile Apps"
+msgstr ""
+
+#: website/templates/sections/hero.html:30
+msgid "Gaming & Interactive Apps"
+msgstr ""
+
+#: website/templates/sections/hero.html:31
+msgid "Help Centers & Documentation"
+msgstr ""
+
+#: website/templates/sections/hero.html:32
+msgid "Websites & Blogs"
+msgstr ""
+
+#: website/templates/sections/hero.html:46
+msgid "{{ trial_days }} days free trial"
+msgstr ""
+
+#: website/templates/sections/hero.html:47
+msgid "No credit card required"
+msgstr ""
+
+#: website/templates/sections/hero.html:48
+msgid "Full access &support"
+msgstr ""
+
+#: website/templates/sections/hero.html:51
+msgid "{{ num_integrations }} available integrations"
+msgstr ""
+
+#: website/templates/sections/hero.html:53
+msgid "{{ num_integrations }} available integration"
+msgstr ""
+
+#: website/templates/sections/stories.html:5
+msgid "CUSTOMER STORIES"
+msgstr ""
+
+#: website/templates/sections/stories.html:6
+msgid "Our customers have spoken"
+msgstr ""
+
+#: website/templates/sections/stories.html:21
+msgid ""
+"ContentFox makes it effortless for our dispersed team of web engineers, SEO, "
+"campaign managers and content marketers to manage the entire content "
+"management process."
+msgstr ""
+
+#: website/templates/sections/stories.html:24
+msgid "Performance Marketing Lead"
+msgstr ""
+
+#: website/templates/sections/stories.html:40
+msgid ""
+"“Our copywriters know they have to pick up every Thursday and Sunday. It’s a "
+"continuous process that I could completely leave on autopilot if I wanted.”"
+msgstr ""
+
+#: website/templates/sections/stories.html:59
+msgid ""
+"“ContentFox team is quick to answer when we have a question or raise an "
+"issue. We are also glad to be part of their Beta testers and to help them "
+"improve their product.”"
 msgstr ""
