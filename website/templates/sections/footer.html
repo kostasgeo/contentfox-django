@@ -1,12 +1,14 @@
+{% load i18n %}
+
 <div class="with-new-footer">
     <footer class="u-padTop-x4 u-bgColor-white u-borderTop-grayLight pricingcta">
         <div class="o-container">
             <div class="cta-area">
-                <h6>Want to experience ContentFox in action?</h6>
-                <p>Get started with a Free {{ trial_days }}full-Day Trial. Sign up in minutes. No credit card required.</p>
+                <h6>{% trans "Want to experience ContentFox in action?" %}</h6>
+                <p>{% trans "Get started with a Free {{ trial_days }}full-Day Trial. Sign up in minutes. No credit card required." %}</p>
                 <div class="cta-buttons">
-                    <a href="/" class="cta-button-white">TRY IT FREE</a>
-                    <a href="#get-a-demo" class="cta-button-transparent">GET A DEMO</a>
+                    <a href="/" class="cta-button-white">{% trans "TRY IT FREE" %}</a>
+                    <a href="#get-a-demo" class="cta-button-transparent">{% trans "GET A DEMO" %}</a>
                 </div>
             </div>
         </div>
@@ -14,18 +16,18 @@
             <div class="o-grid o-grid--withGutter u-marBottom-x5">
                 <div class="o-grid__cell u-display-none@lgu u-cellSize-2of12@lgo" style="background-color: rgb(0, 115, 197);">
                     <img width="60px" src="https://www.stremygardenhouse.com/wp-content/uploads/revslider/white-fox-slider/white-fox.png" />
-                    <span style="color: white;">ContentFox</span>
+                    <span style="color: white;">{% trans "ContentFox" %}</span>
                 </div>
                 <div class="o-grid__cell u-cellSize-6of12 u-cellSize-4of12@smo u-cellSize-2of12@lg u-cellSize-2of12@lgo">
-                    <h2 class="o-text-small u-fontWeight-medium u-marBottom u-color-black">PRODUCT</h2>
+                    <h2 class="o-text-small u-fontWeight-medium u-marBottom u-color-black">{% trans "PRODUCT" %}</h2>
                     <ul>
-                        <li><a href="/" class="o-link o-text-footer">Features</a></li>
-                        <li><a href="/" class="o-link o-text-footer">Integrations</a></li>
-                        <li><a href="/" class="o-link o-text-footer">Pricing</a></li>
-                        <li><a href="/" class="o-link o-text-footer" target="_blank">API</a></li>
-                        <li><a href="/" class="o-link o-text-footer" target="_blank">Client app</a></li>
-                        <li><a href="/" class="o-link o-text-footer" target="_blank">Status</a></li>
-                        <li><a href="/" rel="noreferrer" class="o-link o-text-footer" target="_blank">Review ContentFox</a></li>
+                        <li><a href="/" class="o-link o-text-footer">{% trans "Features" %}</a></li>
+                        <li><a href="/" class="o-link o-text-footer">{% trans "Integrations" %}</a></li>
+                        <li><a href="/" class="o-link o-text-footer">{% trans "Pricing" %}</a></li>
+                        <li><a href="/" class="o-link o-text-footer" target="_blank">{% trans "API" %}</a></li>
+                        <li><a href="/" class="o-link o-text-footer" target="_blank">{% trans "Client app" %}</a></li>
+                        <li><a href="/" class="o-link o-text-footer" target="_blank">{% trans "Status" %}</a></li>
+                        <li><a href="/" rel="noreferrer" class="o-link o-text-footer" target="_blank">{% trans "Review ContentFox" %}</a></li>
                     </ul>
                 </div>
                 <div class="o-grid__cell u-cellSize-6of12 u-cellSize-4of12@smo u-cellSize-2of12@lg u-cellSize-2of12@lgo">
