@@ -23,13 +23,13 @@
             </div>
         </div>
         <div class="texts-wrapper">
-            <h1 class="title">Content management for</h1>
+            <h1 class="title">{% trans "Content management for" %}</h1>
             <div class="subtitle">
                 <div id="hero-subtitle-slider" class="slider">
-                    <div class="slide">Web & Mobile Apps</div>
-                    <div class="slide">Gaming & Interactive Apps</div>
-                    <div class="slide">Help Centers & Documentation</div>
-                    <div class="slide">Websites & Blogs</div>
+                    <div class="slide">{% trans "Web & Mobile Apps" %}</div>
+                    <div class="slide">{% trans "Gaming & Interactive Apps" %}</div>
+                    <div class="slide">{% trans "Help Centers & Documentation" %}</div>
+                    <div class="slide">{% trans "Websites & Blogs" %}</div>
                 </div>
             </div>
             <div class="form-wrapper">
@@ -43,14 +43,14 @@
                 </form>
             </div>
             <div class="bottom-info">
-                <div class="info">{{ trial_days }} days free trial</div>
-                <div class="info">No credit card required</div>
-                <div class="info">Full access &support</div>
+                <div class="info">{% trans "{{ trial_days }} days free trial" %}</div>
+                <div class="info">{% trans "No credit card required" %}</div>
+                <div class="info">{% trans "Full access &support" %}</div>
                 <div class="info">
                 {% if num_integrations > 1 %}
-                {{ num_integrations }} available integrations
+                {% trans "{{ num_integrations }} available integrations" %}
                 {% else %}
-                {{ num_integrations }} available integration
+                {% trans "{{ num_integrations }} available integration" %}
                 {% endif %}
                 </div>
             </div>
