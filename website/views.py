@@ -5,7 +5,7 @@ import random
 
 def homepage(request):
     context = {
-        _("trial_days"): random.randrange(10, 30, 5),
+        "trial_days": random.randrange(10, 30, 5),
         "num_integrations": random.randrange(1, 3),
     }
     return render(request, 'home.html', context)
